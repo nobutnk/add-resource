@@ -14,3 +14,4 @@ sample for adding resource dynamically
 * 詳細は`AppTest` クラスを参照。
 * しかし、このプロジェクトには `src/main/resources`, `src/test/resources` の両方存在しない
 * `mvn` コマンド実行時に `-Dsample.dir=pom.xmlファイルからの相対パス` を付与すると、そのディレクトリがリソースとして追加されて動作する。
+* 追加で読み込む設定であることを検証するため、 `src/main/resources` にあるファイルも読み込む仕様にしてある
